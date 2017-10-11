@@ -1,0 +1,23 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+/*effects for the navbar*/
+@media(min-width:767px) {
+    .navbar {
+        padding: 10px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;  /*-webkit-transition is for chrome, edge and safari*/
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out; /*-moz-transition is for firefox*/
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}

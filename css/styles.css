@@ -1,0 +1,76 @@
+/*custom css*/
+/*navigation*/
+.navbar{
+  background: white;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+/*************************************/
+
+.intro-section {
+    height: 85%;
+    padding-top: 15%;
+    text-align: center;
+    background: white;
+    background-size: cover;
+
+    /*for parallax effect */
+    background-attachment: fixed;
+    color: #3E4348;
+    position: relative;
+
+    /*test*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}
+
+.intro-hide h1{
+  font-size: 5em;
+  font-family: Dosis, sans-serif;
+}
+
+.intro-hide p{
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+}
+
+.intro-details{
+  margin: 0 auto;
+  padding: 40px;
+}
+
+/*************************************/
+
+.about-section {
+    height: 50%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+/*************************************/
+
+
+.services-section {
+    padding: 150px 0;
+    text-align: center;
+    background: #fff;
+}
+
+/*************************************/
+
+.contact-section {
+    padding: 150px 0;
+    text-align: center;
+    background: #eee;
+}
+
+/* footer */
+footer{
+  height: 100px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
